@@ -55,7 +55,7 @@ body::before {
     flex-direction: column;
     width: 440px;
     height: auto;
-    padding: 20px;
+    padding: 40px;
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
