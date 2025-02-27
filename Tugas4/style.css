@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: sans-serif;
+}
+
+.hero_title {
+    text-align: center;
+    width: 100%;
+}
+
+.todolist_parent{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.todolist {
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.deskripsi {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.deskripsi2 {
+    height: 50px;
+    width: 300px;
+    text-align: start;
+    
+}
+
+.button1 {
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    background-color: rgb(15, 179, 255);
+    color: white;
+    font-size: small;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    row-gap: 12px;
+}
+
+.belajar {
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    line-height: 1.5;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.judul {
+    font-size: large;
+}
+
+.deadline {
+    color: grey;
+    font-size: small;
+}
+
+.hapus {
+    background-color: red;
+    font-size: medium;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+
+}
